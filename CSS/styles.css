@@ -1,0 +1,168 @@
+body {
+  color: #40514E;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #393e46;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.6rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #393e46;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #00b7a8;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+}
+
+h4 {
+  color: #11999E;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  width: 6%;
+  margin: 90px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.copyright {
+  color: #EAF6F6;
+  margin: 20px 0 0;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+
+.top-container {
+  background-color: #00b7a8;
+  position: relative;
+  padding-top: 120px;
+}
+
+.middle-container {
+  margin-top: 3%;
+}
+
+.bottom-container {
+  background-color: #00b7a8;
+  margin-top: 3%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.beer-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 45%;
+}
+
+.btn {
+  border-top: 1px solid #00b7a8;
+  background: #11999e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#11999e), to(#11999e));
+  background: -webkit-linear-gradient(top, #11999e, #11999e);
+  background: -moz-linear-gradient(top, #11999e, #11999e);
+  background: -ms-linear-gradient(top, #11999e, #11999e);
+  background: -o-linear-gradient(top, #11999e, #11999e);
+  padding: 7.5px 15px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 2;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.btn:hover {
+  border-top-color: #00b7a8;
+  background: #00b7a8;
+  color: #ffffff;
+}
+
+/**BUTTON WAS CREATED BY:
+https://css-tricks.com/examples/ButtonMaker/#
+*/
+.btn:active {
+  border-top-color: #67d5eb;
+  background: #67d5eb;
+}
+
+.coding-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.contact-me-description {
+  width: 30%;
+  margin: 3% auto 5%;
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+  color: #11999E;
+  margin: 20px;
+}
+.footer-link:hover {
+  border-top-color: #00b7a8;
+  background: #00b7a8;
+  color: #EAF6F6;
+}
+
+.palm-tree {
+  height: 35%;
+  width: 35%;
+}
+
+.profile-description {
+  width: 30%;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 20%;
+  width: 10%
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 19%;
+  top: 7%;
+}
